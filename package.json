@@ -4,6 +4,7 @@
   "description": "Minimalist react + webpack project",
   "main": "./scripts/index.js",
   "scripts": {
+    "install-global-deps": "npm install -g http-server && npm install -g webpack",
     "server": "http-server ./src/ -c 0",
     "webpack": "webpack"
   },
